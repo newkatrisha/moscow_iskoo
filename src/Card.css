@@ -1,0 +1,57 @@
+.card {
+  display: flex;
+  background-color: #ffffff;
+  border-radius: 4px;
+  align-items: center;
+}
+
+.card img {
+  margin: 10px;
+}
+
+.card h3 {
+  color: #165a53;
+  font-weight: bold;
+}
+
+.text {
+  margin: 20px;
+}
+
+.text p {
+  line-height: 25.5px;
+  font-size: 18px;
+}
+
+.text button {
+  border-radius: 24px;
+  width: 140px;
+  height: 46px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.login,
+.view {
+  background-color: #6cb6a2;
+  color: #ffffff;
+  border: none;
+}
+.view {
+  margin-left: 20px;
+}
+
+.signup {
+  background-color: #0087ab;
+  color: #ffffff;
+  border: none;
+  margin-left: 20px;
+}
+
+@media only screen and (max-width: 550px) {
+  .card {
+    display: block;
+    text-align: center;
+  }
+}
