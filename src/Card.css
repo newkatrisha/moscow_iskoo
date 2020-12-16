@@ -3,6 +3,7 @@
   background-color: #ffffff;
   border-radius: 4px;
   align-items: center;
+  position: relative;
 }
 
 .card img {
@@ -12,15 +13,25 @@
 .card h3 {
   color: #165a53;
   font-weight: bold;
+  font-size: 24px;
 }
 
 .text {
-  margin: 20px;
+  margin: 25px;
+  height: 90%;
 }
 
 .text p {
   line-height: 25.5px;
   font-size: 18px;
+  margin-bottom: 50px;
+  display: flex;
+}
+
+.buttons {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
 }
 
 .text button {
@@ -29,7 +40,7 @@
   height: 46px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin: 10px 5px;
 }
 
 .login,
@@ -49,9 +60,22 @@
   margin-left: 20px;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 375px) {
   .card {
     display: block;
     text-align: center;
   }
+  .buttons {
+    position: relative;
+    display: block;
+  }
+  .signup {
+    display: none;
+  }
 }
+
+/* @media only screen and (max-width: 834px) {
+  .buttons {
+    margin-right: 20px;
+  }
+} */

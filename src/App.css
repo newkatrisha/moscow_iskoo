@@ -71,7 +71,7 @@ body {
   margin-right: 100px;
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 375px) {
   .container {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(8, 1fr);
@@ -86,6 +86,10 @@ body {
       "schema"
       "footer";
   }
+  body {
+    margin: 0 50px;
+  }
+
   #city {
     display: none;
   }
@@ -95,5 +99,67 @@ body {
   .header {
     display: block;
     text-align: center;
+  }
+}
+
+@media only screen and (max-width: 834px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-areas:
+      "header"
+      "card"
+      "card"
+      "card"
+      "card"
+      "card"
+      "card"
+      "schema"
+      "footer";
+  }
+  .header {
+    display: block;
+    position: relative;
+  }
+
+  #city {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 1194px) {
+  .container {
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(9, 1fr);
+    grid-template-areas:
+      "header"
+      "card"
+      "card"
+      "card"
+      "card"
+      "card"
+      "card"
+      "schema"
+      "footer";
+  }
+  .header {
+    display: block;
+    position: relative;
+  }
+
+  .header_text {
+    display: flex;
+    justify-content: left;
+    margin: 30px;
+  }
+
+  #city {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 60%;
   }
 }

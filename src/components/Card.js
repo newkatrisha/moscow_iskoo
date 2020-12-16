@@ -4,7 +4,11 @@ import "../Card.css";
 const Card = (props) => {
   let buttons = () => {
     if (props.header === "Надзорник" || props.header === "Инвентаризация") {
-      return <button className="login">Вход</button>;
+      return (
+        <div className="buttons">
+          <button className="login">Вход</button>
+        </div>
+      );
     } else if (props.header === "Территориальная схема") {
       return (
         <div className="buttons">
