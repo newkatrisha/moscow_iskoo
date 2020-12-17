@@ -3,7 +3,7 @@ import { cards } from "./cards";
 import Card from "./components/Card";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
-import Schema from "./components/Schema";
+import Map from "./components/Map";
 
 const App = () => {
   return (
@@ -16,7 +16,7 @@ const App = () => {
               <Card image={card.image} header={card.header} text={card.text} />
             );
           })}
-        <Schema />
+        <Map />
         <Footer />
       </div>
     </div>

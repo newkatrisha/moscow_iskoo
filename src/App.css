@@ -12,7 +12,7 @@ body {
     "card card"
     "card card"
     "card card"
-    "schema schema"
+    "map map"
     "footer footer";
   grid-gap: 0.4rem;
   height: 100vh;
@@ -40,35 +40,8 @@ body {
   grid-area: header;
 }
 
-.schema {
-  grid-area: schema;
-}
-.footer {
-  grid-area: footer;
-  background-color: #6cb6a2;
-  display: flex;
-  color: #ffffff;
-}
-
-.footer h5 {
-  font-size: 18px;
-}
-
-.footer h4 {
-  margin: auto;
-  margin-left: 20px;
-}
-
-.footer img {
-  margin: auto;
-}
-
-.icon {
-  margin-right: 20px;
-}
-
-.address {
-  margin-right: 100px;
+.map {
+  grid-area: map;
 }
 
 @media only screen and (max-width: 375px) {
@@ -83,7 +56,7 @@ body {
       "card"
       "card"
       "card"
-      "schema"
+      "map"
       "footer";
   }
   body {
@@ -114,7 +87,7 @@ body {
       "card"
       "card"
       "card"
-      "schema"
+      "map"
       "footer";
   }
   .header {
@@ -142,7 +115,7 @@ body {
       "card"
       "card"
       "card"
-      "schema"
+      "map"
       "footer";
   }
   .header {

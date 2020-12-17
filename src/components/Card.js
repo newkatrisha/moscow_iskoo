@@ -1,5 +1,5 @@
 import React from "react";
-import "../Card.css";
+import "../styles/Card.css";
 
 const Card = (props) => {
   let buttons = () => {
@@ -19,7 +19,9 @@ const Card = (props) => {
     } else
       return (
         <div className="buttons">
-          <button className="login">Вход</button>
+          <a href="/login">
+            <button className="login">Вход</button>
+          </a>
           <button className="signup">Регистрация</button>
         </div>
       );

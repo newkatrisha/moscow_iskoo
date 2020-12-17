@@ -1,0 +1,32 @@
+.footer {
+  grid-area: footer;
+  background-color: #6cb6a2;
+  display: flex;
+  color: #ffffff;
+}
+
+.footer a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.footer h5 {
+  font-size: 18px;
+}
+
+.footer h4 {
+  margin: auto;
+  margin-left: 20px;
+}
+
+.footer img {
+  margin: auto;
+}
+
+.icon {
+  margin-right: 20px;
+}
+
+.address {
+  margin-right: 100px;
+}
